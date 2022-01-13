@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.files        += %w(LICENSE.txt README.md)
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'jsonapi-serializer'
+  spec.add_dependency 'dulead-jsonapi-serializer'
   spec.add_dependency 'rack'
 
   spec.add_development_dependency 'bundler'
